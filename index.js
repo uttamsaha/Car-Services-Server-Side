@@ -64,6 +64,9 @@ run().catch(console.dir); //calling run function
 app.get("/", (req, res) => {
   res.send("Running Car services server");
 });
+app.get("/updated", (req, res) => {
+  res.send("Testing updated server");
+});
 
 app.listen(port, () => {
   console.log("Listening to port: ", port);
