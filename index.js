@@ -65,7 +65,7 @@ app.get("/", (req, res) => {
   res.send("Running Car services server");
 });
 app.get("/updated", (req, res) => {
-  res.send("Testing updated server");
+  res.send("Testing updated server running");
 });
 
 app.listen(port, () => {
